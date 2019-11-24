@@ -24,9 +24,9 @@ func main() {
 		fmt.Println(err)
 		return
 	}
-	fmt.Print("Time, Flair, Upvotes, Downvotes, FK Grade Level, SMOG, Positive Sentiment, Neutral Sentiment, Negative Sentiment\n")
+	fmt.Print("Time, Flair, Upvotes, FK Grade Level, SMOG, Positive Sentiment, Neutral Sentiment, Negative Sentiment\n")
 	for _, comment := range comments {
 		analysis := commentanalyzer.Analyze(*comment)
-		fmt.Printf("%v, %v, %v, %v, %v, %v, %v, %v, %v \n", comment.Time, comment.Flair, comment.Upvotes, comment.Downvotes, analysis.FKGradeLevel, analysis.SMOG, analysis.Positive, analysis.Neutral, analysis.Negative)
+		fmt.Printf("%v, %v, %v, %v, %v, %v, %v, %v \n", comment.Time, comment.Flair, comment.Upvotes, analysis.FKGradeLevel, analysis.SMOG, analysis.Positive, analysis.Neutral, analysis.Negative)
 	}
 }

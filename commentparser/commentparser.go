@@ -7,11 +7,10 @@ import (
 )
 
 type AnonymizedComment struct {
-	Time      time.Time `csv:"time"`
-	Body      string    `csv:"-"`
-	Flair     string    `csv:"flair"`
-	Upvotes   int       `csv:"ups"`
-	Downvotes int       `csv:"downs"`
+	Time    time.Time `csv:"time"`
+	Body    string    `csv:"-"`
+	Flair   string    `csv:"flair"`
+	Upvotes int       `csv:"ups"`
 }
 
 func GetAnonymizedCommentsForURL(url string, script reddit.Script) (comments []*AnonymizedComment, err error) {
@@ -32,7 +31,6 @@ func anonymize(v *reddit.Comment) []*AnonymizedComment {
 	comment.Time = time.Unix(int64(v.CreatedUTC), 0)
 	comment.Body = v.Body
 	comment.Flair = v.AuthorFlairText
-	comment.Downvotes = int(v.Downs)
 	comment.Upvotes = int(v.Ups)
 
 	comments := []*AnonymizedComment{&comment}
