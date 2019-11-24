@@ -4,16 +4,14 @@ github.com/BluntSporks/readability v0.0.0-20170405091137-6f1eb9729696/go.mod h1:
 github.com/golang/protobuf v1.2.0/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
 github.com/golang/protobuf v1.3.2 h1:6nsPYzhq5kReh6QImI3k5qWzO4PEbvbIW2cwSfR/6xs=
 github.com/golang/protobuf v1.3.2/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
-github.com/grassmudhorses/vader-go v0.0.0-20191122034603-bb6821474817 h1:p/zY2O0h4LKs6NO6uzWOx71j2pq75F83bkT4Sv53hXY=
-github.com/grassmudhorses/vader-go v0.0.0-20191122034603-bb6821474817/go.mod h1:IzJaGYcJ0bPop+671VvoIU7DL2xb9GzM3TKZDj9qAvI=
+github.com/grassmudhorses/vader-go v0.0.0-20191124082249-bb0311df5fd4 h1:hSOuelOHwHV5uRmT07cfIz/nA6pXP/YFaoxIoXKQG9E=
+github.com/grassmudhorses/vader-go v0.0.0-20191124082249-bb0311df5fd4/go.mod h1:IzJaGYcJ0bPop+671VvoIU7DL2xb9GzM3TKZDj9qAvI=
 github.com/kylelemons/godebug v1.1.0 h1:RPNrshWIDI6G2gRW9EHilWtl7Z6Sb1BR0xunSBf0SNc=
 github.com/kylelemons/godebug v1.1.0/go.mod h1:9/0rRGxNHcop5bhtWyNeEfOS8JIWk580+fNqagV/RAw=
 github.com/mitchellh/mapstructure v1.1.2 h1:fmNYVwqnSfB9mZU6OS2O6GsXM+wcskZDuKQzvN1EDeE=
 github.com/mitchellh/mapstructure v1.1.2/go.mod h1:FVVH3fgwuzCH5S8UJGiWEs2h04kUh9fWfEaFds41c1Y=
 github.com/mtso/syllables v0.1.0 h1:tY0Kef9J0XY6EyN7ee9fCIwXXqw3kZPBEWqTplYFutA=
 github.com/mtso/syllables v0.1.0/go.mod h1:b69tp5uXvnTheTZrfZUzLzn9uQMeUPXZO6b4zOvMC0M=
-github.com/robertkrimen/otto v0.0.0-20180617131154-15f95af6e78d h1:1VUlQbCfkoSGv7qP7Y+ro3ap1P1pPZxgdGVqiTVy5C4=
-github.com/robertkrimen/otto v0.0.0-20180617131154-15f95af6e78d/go.mod h1:xvqspoSXJTIpemEonrMDFq6XzwHYYgToXWj5eRX1OtY=
 github.com/turnage/graw v0.0.0-20191104042329-405cc3092119 h1:WpxPyCI7eEFG4Ix5m/UhTkrFZxSI6YAASpQswMn08b0=
 github.com/turnage/graw v0.0.0-20191104042329-405cc3092119/go.mod h1:mCzFVBigviR4gb9WRHCFEZ4Z8eWB1dGz+fzLOHpkG8I=
 github.com/turnage/redditproto v0.0.0-20151223012412-afedf1b6eddb h1:qR56NGRvs2hTUbkn6QF8bEJzxPIoMw3Np3UigBeJO5A=
@@ -30,5 +28,3 @@ golang.org/x/sys v0.0.0-20190215142949-d0b11bdaac8a/go.mod h1:STP8DvDyc/dI5b8T5h
 golang.org/x/text v0.3.0/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=
 google.golang.org/appengine v1.4.0 h1:/wp5JvzpHIxhs/dumFmF7BXTf3Z+dd4uXta4kVyO508=
 google.golang.org/appengine v1.4.0/go.mod h1:xpcJRLb0r/rnEns0DIKYYv+WjYCduHsrkT7/EB5XEv4=
-gopkg.in/sourcemap.v1 v1.0.5 h1:inv58fC9f9J3TK2Y2R1NPntXEn3/wjWHkonhIUODNTI=
-gopkg.in/sourcemap.v1 v1.0.5/go.mod h1:2RlvNNSMglmRrcvhfuzp4hQHwOtjxlbjX7UPY/GXb78=
